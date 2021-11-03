@@ -421,7 +421,54 @@ li {
   font-size: 16px;
 }
 /* feature section ends */
-
+/* subscribe section starts */
+#subscribe {
+  width: 100%;
+  height: 70vh;
+  background: #33E3E6;
+  text-align: center;
+}
+#subscribe .wrapper {
+  width: 55%;
+}
+#subscribe h2 {
+  padding-top: 110px;
+  font-size: 30px;
+}
+#subscribe p {
+  margin: 20px 0 60px 0;
+  font-size: 18px;
+  color: #666;
+}
+#subscribe form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#subscribe form div {
+  padding: 0 20px;
+}
+#subscribe form input {
+  width: 320px;
+  padding: 15px;
+  background: #93E8EA;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 18px;
+  border-radius: 5px;
+}
+#subscribe form button {
+  padding: 15px 120px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  background: #2779D6;
+  outline: none;
+  border: none;
+}
+/* subscribe section ends */
 /*=================================
   main styling ends here
 =================================*/
