@@ -224,6 +224,51 @@ li {
   color: #666;
 }
 /* shop section ends */
+/* group section starts */
+#group {
+  background: transparent;
+  margin-top: 170px;
+}
+#group .wrapper {
+  width: 90%;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #D5D8DB;
+}
+#group .wrapper figure {
+  width: 65%;
+  justify-self: end;
+}
+#group .wrapper figure img {
+  width: 100%;
+  box-shadow: 0px 0px 30px -8px #666;
+}
+.shop-content {
+  align-self: center;
+}
+.group-content h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  letter-spacing: .5px;
+  position: relative;
+}
+.group-content h2::after {
+  content: '';
+  width: 35px;
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  border-bottom: 2px solid #2779D6;
+}
+.group-content p {
+  letter-spacing: .2px;
+  line-height: 29px;
+  font-size: 17px;
+  color: #666;
+}
+/* group section ends */
 /*=================================
   main styling ends here
 =================================*/
