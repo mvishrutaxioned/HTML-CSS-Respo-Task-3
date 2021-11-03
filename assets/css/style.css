@@ -366,6 +366,61 @@ li {
   color: #2779D6;
 }
 /* review section ends */
+/* feature section starts */
+#features {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#features .wrapper {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#features h2 {
+  font-size: 30px;
+}
+#features .wrapper > p {
+  width: 60%;
+  line-height: 30px;
+  font-size: 18px;
+  margin: 30px auto;
+  color: #666;
+}
+#features ul {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+#features ul li {
+  padding: 0 30px;
+}
+#features ul li i {
+  padding: 25px;
+  background: #E9ECED;
+  color: #2779D6;
+  font-size: 40px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+#features ul li:nth-of-type(1) i {
+  padding: 25px 35px;
+}
+#features h4 {
+  margin-bottom: 10px;
+}
+#features ul li p {
+  color: #666;
+  margin-top: 0;
+  line-height: 25px;
+  font-size: 16px;
+}
+/* feature section ends */
 
 /*=================================
   main styling ends here
